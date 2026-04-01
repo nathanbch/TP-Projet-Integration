@@ -1,0 +1,24 @@
+{
+  "name": "git-ci-cd-tp",
+  "version": "1.0.0",
+  "description": "TP Git CI/CD avec Jest et Cypress",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^15.13.0",
+    "jest": "^30.3.0",
+    "start-server-and-test": "^2.1.5",
+    "supertest": "^7.2.2"
+  }
+}

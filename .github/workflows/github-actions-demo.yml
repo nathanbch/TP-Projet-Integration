@@ -1,0 +1,17 @@
+name: GitHub Actions Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Afficher un message
+        run: echo "Hello from GitHub Actions"
+
+      - name: Deuxième message
+        run: echo "Le workflow fonctionne"

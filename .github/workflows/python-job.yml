@@ -1,0 +1,22 @@
+name: Python Job
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  python-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Exécuter le script Python
+        run: python job.py
