@@ -77,6 +77,19 @@ Bienvenue sur mon application CI/CD
 
 ---
 
+## 📸 Screen
+
+Pipeline GitHub Actions
+
+![Alt text](image.png)
+
+Docker Hub
+
+VM Azure
+![Alt text](image-1.png)
+
+
+
 ## 👨‍💻 Auteur
 
 Nathan Bouche
