@@ -85,10 +85,17 @@ Pipeline GitHub Actions
 
 Docker Hub
 
+![Alt text](image-4.png)
+
 VM Azure
+
 ![Alt text](image-1.png)
 
 
+LocalHost Port 3000
+
+![Alt text](image-3.png)
+ 
 
 ## 👨‍💻 Auteur
 
